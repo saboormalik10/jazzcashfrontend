@@ -18,7 +18,7 @@ function PaymentPage() {
     };
 
 
-    const res = await axios.post('https://4379-206-42-124-78.ngrok-free.app/api/payment/initiate', payload);
+    const res = await axios.post('https://7242-206-42-124-78.ngrok-free.app/api/payment/initiate', payload);
     if (res.data.success) {
       setPaymentData(res.data); // Set payment data when successful
     }
